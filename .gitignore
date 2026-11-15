@@ -1,0 +1,14 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea
+/build
+/app/build
+.DS_Store
+# Signed builds from Android Studio (Generate Signed App Bundle or APK) and their R8 mapping
+/app/release
+# Signing keys and their passwords never go in the repository
+*.jks
+*.keystore
+keystore.properties

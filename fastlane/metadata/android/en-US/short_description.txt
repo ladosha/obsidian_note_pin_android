@@ -1,0 +1,1 @@
+Pin Obsidian notes to the notification bar and get their reminders, offline.

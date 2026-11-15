@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Everywhere: the home screen, Settings → Apps, permission prompts, notifications. -->
+    <string name="app_name">Note Pin for Obsidian</string>
+
+    <!-- Shared -->
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="setup">Setup</string>
+    <string name="allow">Allow</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_info">App info</string>
+    <string name="back">Back</string>
+    <string name="no_app">No app on this phone can open that.</string>
+
+    <!-- Main screen -->
+    <string name="section_pinned">Pinned to the status bar</string>
+    <string name="section_upcoming">Upcoming</string>
+    <string name="section_past">Past</string>
+    <string name="attention_title">Finish setting up</string>
+    <plurals name="attention_text">
+        <item quantity="one">One setting needs your attention so reminders arrive on time.</item>
+        <item quantity="other">%d settings need your attention so reminders arrive on time.</item>
+    </plurals>
+    <string name="open_setup">Open setup</string>
+    <string name="empty_title">No reminders yet</string>
+    <string name="empty_text">In Obsidian, open a note and choose Set reminder from the Note Pin plugin, or pin the note to the status bar. Obsidian on this phone sends them here.</string>
+
+    <!-- When a note's reminder is due, on its card: "Mon, Oct 27, 2026, 9:00 AM · every week" -->
+    <string name="schedule_pinned">Pinned to the status bar</string>
+    <string name="schedule_reminder">Reminder</string>
+    <string name="schedule_all_day">All day · %1$s</string>
+    <string name="repeat_daily">every day</string>
+    <string name="repeat_weekly_on">every week on %1$s</string>
+    <string name="repeat_biweekly_on">every 2 weeks on %1$s</string>
+    <string name="repeat_yearly_on">every year on %2$s %1$d</string>
+    <string name="repeat_yearly_feb29">every year on February 29 (February 28 in other years)</string>
+    <!-- With repeat_weekly_on and repeat_biweekly_on, Sunday to Saturday. -->
+    <string-array name="weekdays_on">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <!-- With repeat_yearly_on, January to December. -->
+    <string-array name="months_on">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <!-- "every month on the 15th", for days 1 to 31. -->
+    <string-array name="repeat_monthly_on">
+        <item>every month on the 1st</item>
+        <item>every month on the 2nd</item>
+        <item>every month on the 3rd</item>
+        <item>every month on the 4th</item>
+        <item>every month on the 5th</item>
+        <item>every month on the 6th</item>
+        <item>every month on the 7th</item>
+        <item>every month on the 8th</item>
+        <item>every month on the 9th</item>
+        <item>every month on the 10th</item>
+        <item>every month on the 11th</item>
+        <item>every month on the 12th</item>
+        <item>every month on the 13th</item>
+        <item>every month on the 14th</item>
+        <item>every month on the 15th</item>
+        <item>every month on the 16th</item>
+        <item>every month on the 17th</item>
+        <item>every month on the 18th</item>
+        <item>every month on the 19th</item>
+        <item>every month on the 20th</item>
+        <item>every month on the 21st</item>
+        <item>every month on the 22nd</item>
+        <item>every month on the 23rd</item>
+        <item>every month on the 24th</item>
+        <item>every month on the 25th</item>
+        <item>every month on the 26th</item>
+        <item>every month on the 27th</item>
+        <item>every month on the 28th</item>
+        <item>every month on the 29th (or the last day of shorter months)</item>
+        <item>every month on the 30th (or the last day of shorter months)</item>
+        <item>every month on the 31st (or the last day of shorter months)</item>
+    </string-array>
+    <string name="repeat_yearly_lunar">every year by the Chinese lunar calendar (%1$s)</string>
+    <string name="lunar_date">month %1$d, day %2$d</string>
+    <string name="lunar_leap_date">leap month %1$d, day %2$d</string>
+    <string name="repeat_until">until %1$s</string>
+    <string name="schedule_repeat_ended">Repeated until %1$s</string>
+    <!-- "every month on the third Sunday": rows first, second, third, fourth, last; each row Sunday to Saturday. -->
+    <string-array name="repeat_monthly_weekday">
+        <item>every month on the first Sunday</item>
+        <item>every month on the first Monday</item>
+        <item>every month on the first Tuesday</item>
+        <item>every month on the first Wednesday</item>
+        <item>every month on the first Thursday</item>
+        <item>every month on the first Friday</item>
+        <item>every month on the first Saturday</item>
+        <item>every month on the second Sunday</item>
+        <item>every month on the second Monday</item>
+        <item>every month on the second Tuesday</item>
+        <item>every month on the second Wednesday</item>
+        <item>every month on the second Thursday</item>
+        <item>every month on the second Friday</item>
+        <item>every month on the second Saturday</item>
+        <item>every month on the third Sunday</item>
+        <item>every month on the third Monday</item>
+        <item>every month on the third Tuesday</item>
+        <item>every month on the third Wednesday</item>
+        <item>every month on the third Thursday</item>
+        <item>every month on the third Friday</item>
+        <item>every month on the third Saturday</item>
+        <item>every month on the fourth Sunday</item>
+        <item>every month on the fourth Monday</item>
+        <item>every month on the fourth Tuesday</item>
+        <item>every month on the fourth Wednesday</item>
+        <item>every month on the fourth Thursday</item>
+        <item>every month on the fourth Friday</item>
+        <item>every month on the fourth Saturday</item>
+        <item>every month on the last Sunday</item>
+        <item>every month on the last Monday</item>
+        <item>every month on the last Tuesday</item>
+        <item>every month on the last Wednesday</item>
+        <item>every month on the last Thursday</item>
+        <item>every month on the last Friday</item>
+        <item>every month on the last Saturday</item>
+    </string-array>
+
+    <!-- Setup steps -->
+    <string name="status_done">Done</string>
+    <string name="status_attention">Needs attention</string>
+
+    <!-- Asking whether a vault may connect; %1$s is the vault's name. -->
+    <string name="pair_title">Connect this vault?</string>
+    <string name="pair_text">Obsidian wants to send the reminders and pinned notes of the vault “%1$s” to Note Pin for Obsidian.</string>
+    <string name="pair_deny">Don\'t allow</string>
+
+    <!-- Notifications -->
+    <string name="channel_pins">Pinned notes</string>
+    <string name="channel_pins_description">Notes pinned to the status bar from Obsidian</string>
+    <string name="channel_reminders">Reminders</string>
+    <string name="channel_reminders_description">Reminders set on notes in Obsidian</string>
+    <string name="test_notification_title">Test persistent notification</string>
+    <string name="test_notification_text">Try to swipe this away. If it stays, notes pinned to the status bar will stay too.</string>
+    <string name="missed_reminder">Missed reminder</string>
+
+    <!-- Settings screen -->
+    <string name="separate_title">Show each note as its own notification</string>
+    <string name="separate_text">Android bundles an app\'s notifications into one card once there are several. On: every pinned note and reminder keeps a card and color of its own.</string>
+    <string name="setup_and_permissions">Setup and permissions</string>
+    <string name="setup_all_set">Everything reminders need is set up.</string>
+    <plurals name="setup_attention">
+        <item quantity="one">One setting needs your attention.</item>
+        <item quantity="other">%d settings need your attention.</item>
+    </plurals>
+    <string name="section_vaults">Obsidian vaults</string>
+    <string name="no_vaults">No vault has connected yet. Obsidian on this phone connects the first time it sends reminders, and this app asks you to allow it.</string>
+    <!-- %1$d is the number of reminders, %2$s when they arrived. -->
+    <plurals name="vault_summary">
+        <item quantity="one">%1$d reminder · updated %2$s</item>
+        <item quantity="other">%1$d reminders · updated %2$s</item>
+    </plurals>
+    <string name="vault_nothing">Nothing received yet</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnect_title">Disconnect “%1$s”?</string>
+    <string name="disconnect_text">Its reminders and pins disappear from this phone. Obsidian asks to connect again the next time it sends them.</string>
+    <string name="about">About</string>
+    <!-- %1$s is the developer's name, shown as a link. -->
+    <string name="about_credit">Made with 🤖 by %1$s</string>
+    <string name="kofi">"☕  Support me on Ko-fi"</string>
+    <string name="version">Version %1$s</string>
+
+    <!-- Setup screen -->
+    <string name="welcome">Welcome</string>
+    <string name="setup_intro">Note Pin for Obsidian shows the reminders and pinned notes you set in Obsidian as notifications on this phone. A few settings make sure they arrive on time.</string>
+    <string name="notifications_text">Needed to show reminders and notes pinned to the status bar.</string>
+    <string name="exact_alarms">Exact alarms</string>
+    <string name="exact_alarms_text">Lets reminders go off at the exact minute instead of a few minutes late.</string>
+    <string name="battery">Battery</string>
+    <string name="battery_ok">Battery use is unrestricted, so Android won\'t delay reminders.</string>
+    <!-- %1$s is one of the battery_how texts. -->
+    <string name="battery_restricted">Android can delay reminders from apps it restricts. %1$s</string>
+    <string name="battery_how_xiaomi">In App info → Battery usage, set Battery saver to No restrictions.</string>
+    <string name="battery_how_samsung">In App info → Battery, choose Unrestricted.</string>
+    <string name="battery_how_other">Set the app\'s battery use to Unrestricted.</string>
+    <string name="battery_settings">Battery settings</string>
+    <string name="obsidian_installed">Installed. In Obsidian, install the Note Pin plugin: it sends your reminders here.</string>
+    <string name="obsidian_missing">Install Obsidian and its Note Pin plugin; they send your reminders here.</string>
+    <string name="undismissable">Pins that can\'t be swiped away</string>
+    <string name="undismissable_done">Done: notes pinned to the status bar can\'t be swiped away.</string>
+    <string name="undismissable_how">Android 14 and later let you swipe away notes pinned to the status bar. To stop that, run this command once from a computer with USB debugging turned on, or on the phone with Shizuku or LADB:</string>
+    <string name="copy_command">Copy command</string>
+    <string name="adb_command_label">ADB command</string>
+    <string name="copied">Copied</string>
+    <string name="test_unknown">Check it: post a test notification, then try to swipe it away.</string>
+    <string name="test_locked">The test notification is showing, and Android marked it as not swipeable.</string>
+    <string name="test_unlocked">The test notification is showing, and Android lets you swipe it away.</string>
+    <string name="post_test">Post test notification</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_done">Done</string>
+
+    <!-- What the phone's maker adds on top of Android. The quoted names are the phone's own settings, as it shows them. -->
+    <string name="this_phone">This phone</string>
+    <string name="phone_nothing_to_do">Nothing else to set up: Android brings notes pinned to the status bar back by itself after the phone restarts or the app updates.</string>
+    <string name="autostart">Autostart</string>
+    <string name="autostart_on">Autostart is on</string>
+    <string name="autostart_off">Autostart is off</string>
+    <string name="autostart_on_text">Notes pinned to the status bar come back by themselves after the phone restarts or this app updates.</string>
+    <string name="autostart_off_text">Turn on Autostart for this app. Without it, notes pinned to the status bar don\'t come back by themselves after the phone restarts or this app updates, only when you open it. Reminders still go off.</string>
+    <string name="samsung_sleeping">Sleeping apps</string>
+    <string name="samsung_sleeping_text">One UI puts apps you haven\'t opened for a while to sleep, and a sleeping app\'s reminders and pins can stop. In Settings → Battery → Background usage limits, add Note Pin for Obsidian to Never auto sleeping apps (Never sleeping apps on older One UI). Then pins also come back after the phone restarts, including the automatic restarts Device care can schedule.</string>
+    <string name="samsung_icons">Status bar icons</string>
+    <string name="samsung_icons_one_ui_7">One UI 7 and later show at most 3 notification icons in the status bar, then a dot, so a pinned note may show only as a dot. Swipe down to see it.</string>
+    <string name="samsung_icons_older">To see every pinned note\'s icon in the status bar, go to Settings → Notifications → Advanced settings → Show notification icons, and choose All notifications. One UI 7 and later always show at most 3.</string>
+    <string name="samsung_clear">The Clear button</string>
+    <string name="samsung_clear_text">In One UI 7 and later, the Clear button also removes ongoing notifications, and with them notes pinned to the status bar, unless the command below stops them from being swiped away. If they\'re removed, opening this app brings them back.</string>
+    <string name="huawei_app_launch">App launch</string>
+    <string name="huawei_app_launch_text">In Settings → Battery → App launch, set Note Pin for Obsidian to manage manually, and turn on Auto-launch, Secondary launch and Run in background. Without them, reminders and pins can stop once the app has been closed for a while, or after the phone restarts.</string>
+    <string name="oppo_background">Auto launch and background activity</string>
+    <string name="oppo_background_text">In App info → Battery usage, turn on Allow background activity and, if it\'s there, Allow auto launch. Without them, reminders and pins can stop after the phone restarts.</string>
+    <string name="vivo_background">Background power and Autostart</string>
+    <string name="vivo_background_text">In Settings → Battery → Background power consumption management, allow Note Pin for Obsidian. Also turn on Autostart for it in App info, or in i Manager → App manager → Autostart on older phones. Without them, reminders and pins can stop after the phone restarts.</string>
+</resources>

@@ -1,0 +1,22 @@
+Note Pin for Obsidian puts your Obsidian notes in Android's notification bar and makes their reminders go off on time. It works with Note Pin, a free plugin you install in your Obsidian vault.
+
+PIN NOTES TO THE NOTIFICATION BAR
+A pinned note shows its title and first lines, tinted with the note's color, until you unpin it. Keep a shopping list, today's plan or a packing list one swipe away. Tap the notification and the note opens in Obsidian.
+
+REMINDERS THAT GO OFF ON TIME
+• At a set time, or all day: an all-day reminder stays in the notification bar until the day is over
+• One-off, or repeating: every day, every week or every 2 weeks, every month on a date or a weekday (like the third Sunday), or every year, also by the Chinese lunar calendar. Repeats can stop on an end date
+• Exact alarms, so they go off at the minute you set, even when Obsidian is closed
+• After the phone restarts, the app sets your alarms and pins again
+
+WORKS OFFLINE, WITH NO EXTERNAL SERVICES
+• No account, no server, no ads and no analytics
+• Obsidian hands your reminders to the app directly on your phone
+• Your reminders are stored in your notes, so they sync with whatever you already use
+
+HOW IT WORKS
+1. In Obsidian, install the Note Pin plugin from Settings → Community plugins.
+2. Right-click a note, choose Set reminder, and pick a time, or pin the note to the status bar.
+3. Open Obsidian on your phone. The first time, this app asks whether to allow your vault.
+
+Note Pin for Obsidian is an unofficial companion app. It isn't made by or affiliated with the Obsidian team.

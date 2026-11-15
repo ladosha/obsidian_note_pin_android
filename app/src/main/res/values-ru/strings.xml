@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note Pin для Obsidian</string>
+
+    <!-- Shared -->
+    <string name="settings">Настройки</string>
+    <string name="notifications">Уведомления</string>
+    <string name="setup">Настройка</string>
+    <string name="allow">Разрешить</string>
+    <string name="remove">Убрать</string>
+    <string name="cancel">Отмена</string>
+    <string name="app_info">О приложении</string>
+    <string name="back">Назад</string>
+    <string name="no_app">На этом телефоне нет приложения, которое может это открыть.</string>
+
+    <!-- Main screen -->
+    <string name="section_pinned">Закреплены в строке состояния</string>
+    <string name="section_upcoming">Предстоящие</string>
+    <string name="section_past">Прошедшие</string>
+    <string name="attention_title">Завершите настройку</string>
+    <plurals name="attention_text">
+        <item quantity="one">%d настройка требует внимания, чтобы напоминания приходили вовремя.</item>
+        <item quantity="few">%d настройки требуют внимания, чтобы напоминания приходили вовремя.</item>
+        <item quantity="many">%d настроек требуют внимания, чтобы напоминания приходили вовремя.</item>
+        <item quantity="other">%d настройки требуют внимания, чтобы напоминания приходили вовремя.</item>
+    </plurals>
+    <string name="open_setup">Открыть настройку</string>
+    <string name="empty_title">Напоминаний пока нет</string>
+    <string name="empty_text">В Obsidian откройте заметку и выберите «Задать напоминание» в плагине Note Pin или закрепите заметку в строке состояния. Obsidian на этом телефоне отправит их сюда.</string>
+
+    <!-- When a note's reminder is due -->
+    <string name="schedule_pinned">Закреплена в строке состояния</string>
+    <string name="schedule_reminder">Напоминание</string>
+    <string name="schedule_all_day">Весь день · %1$s</string>
+    <string name="repeat_daily">каждый день</string>
+    <string name="repeat_weekly_on">каждую неделю %1$s</string>
+    <string name="repeat_biweekly_on">каждые 2 недели %1$s</string>
+    <string name="repeat_yearly_on">каждый год %1$d %2$s</string>
+    <string name="repeat_yearly_feb29">каждый год 29 февраля (в остальные годы 28 февраля)</string>
+    <string-array name="weekdays_on">
+        <item>в воскресенье</item>
+        <item>в понедельник</item>
+        <item>во вторник</item>
+        <item>в среду</item>
+        <item>в четверг</item>
+        <item>в пятницу</item>
+        <item>в субботу</item>
+    </string-array>
+    <string-array name="months_on">
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+    <string-array name="repeat_monthly_on">
+        <item>каждый месяц 1-го числа</item>
+        <item>каждый месяц 2-го числа</item>
+        <item>каждый месяц 3-го числа</item>
+        <item>каждый месяц 4-го числа</item>
+        <item>каждый месяц 5-го числа</item>
+        <item>каждый месяц 6-го числа</item>
+        <item>каждый месяц 7-го числа</item>
+        <item>каждый месяц 8-го числа</item>
+        <item>каждый месяц 9-го числа</item>
+        <item>каждый месяц 10-го числа</item>
+        <item>каждый месяц 11-го числа</item>
+        <item>каждый месяц 12-го числа</item>
+        <item>каждый месяц 13-го числа</item>
+        <item>каждый месяц 14-го числа</item>
+        <item>каждый месяц 15-го числа</item>
+        <item>каждый месяц 16-го числа</item>
+        <item>каждый месяц 17-го числа</item>
+        <item>каждый месяц 18-го числа</item>
+        <item>каждый месяц 19-го числа</item>
+        <item>каждый месяц 20-го числа</item>
+        <item>каждый месяц 21-го числа</item>
+        <item>каждый месяц 22-го числа</item>
+        <item>каждый месяц 23-го числа</item>
+        <item>каждый месяц 24-го числа</item>
+        <item>каждый месяц 25-го числа</item>
+        <item>каждый месяц 26-го числа</item>
+        <item>каждый месяц 27-го числа</item>
+        <item>каждый месяц 28-го числа</item>
+        <item>каждый месяц 29-го числа (в более коротких месяцах — в последний день)</item>
+        <item>каждый месяц 30-го числа (в более коротких месяцах — в последний день)</item>
+        <item>каждый месяц 31-го числа (в более коротких месяцах — в последний день)</item>
+    </string-array>
+    <string name="repeat_yearly_lunar">каждый год по китайскому лунному календарю (%1$s)</string>
+    <string name="lunar_date">%1$d-й месяц, %2$d-й день</string>
+    <string name="lunar_leap_date">вставной %1$d-й месяц, %2$d-й день</string>
+    <string name="repeat_until">до %1$s</string>
+    <string name="schedule_repeat_ended">Повторялось до %1$s</string>
+    <string-array name="repeat_monthly_weekday">
+        <item>каждый месяц в первое воскресенье</item>
+        <item>каждый месяц в первый понедельник</item>
+        <item>каждый месяц в первый вторник</item>
+        <item>каждый месяц в первую среду</item>
+        <item>каждый месяц в первый четверг</item>
+        <item>каждый месяц в первую пятницу</item>
+        <item>каждый месяц в первую субботу</item>
+        <item>каждый месяц во второе воскресенье</item>
+        <item>каждый месяц во второй понедельник</item>
+        <item>каждый месяц во второй вторник</item>
+        <item>каждый месяц во вторую среду</item>
+        <item>каждый месяц во второй четверг</item>
+        <item>каждый месяц во вторую пятницу</item>
+        <item>каждый месяц во вторую субботу</item>
+        <item>каждый месяц в третье воскресенье</item>
+        <item>каждый месяц в третий понедельник</item>
+        <item>каждый месяц в третий вторник</item>
+        <item>каждый месяц в третью среду</item>
+        <item>каждый месяц в третий четверг</item>
+        <item>каждый месяц в третью пятницу</item>
+        <item>каждый месяц в третью субботу</item>
+        <item>каждый месяц в четвёртое воскресенье</item>
+        <item>каждый месяц в четвёртый понедельник</item>
+        <item>каждый месяц в четвёртый вторник</item>
+        <item>каждый месяц в четвёртую среду</item>
+        <item>каждый месяц в четвёртый четверг</item>
+        <item>каждый месяц в четвёртую пятницу</item>
+        <item>каждый месяц в четвёртую субботу</item>
+        <item>каждый месяц в последнее воскресенье</item>
+        <item>каждый месяц в последний понедельник</item>
+        <item>каждый месяц в последний вторник</item>
+        <item>каждый месяц в последнюю среду</item>
+        <item>каждый месяц в последний четверг</item>
+        <item>каждый месяц в последнюю пятницу</item>
+        <item>каждый месяц в последнюю субботу</item>
+    </string-array>
+
+    <!-- Setup steps -->
+    <string name="status_done">Готово</string>
+    <string name="status_attention">Требует внимания</string>
+
+    <!-- Asking whether a vault may connect -->
+    <string name="pair_title">Подключить это хранилище?</string>
+    <string name="pair_text">Obsidian хочет отправлять в Note Pin для Obsidian напоминания и закреплённые заметки из хранилища «%1$s».</string>
+    <string name="pair_deny">Не разрешать</string>
+
+    <!-- Notifications -->
+    <string name="channel_pins">Закреплённые заметки</string>
+    <string name="channel_pins_description">Заметки, закреплённые в строке состояния из Obsidian</string>
+    <string name="channel_reminders">Напоминания</string>
+    <string name="channel_reminders_description">Напоминания, заданные для заметок в Obsidian</string>
+    <string name="test_notification_title">Тестовое постоянное уведомление</string>
+    <string name="test_notification_text">Попробуйте смахнуть его. Если оно останется, закреплённые в строке состояния заметки тоже будут оставаться.</string>
+    <string name="missed_reminder">Пропущенное напоминание</string>
+
+    <!-- Settings screen -->
+    <string name="separate_title">Каждая заметка отдельным уведомлением</string>
+    <string name="separate_text">Когда у приложения несколько уведомлений, Android объединяет их в одну карточку. Если включено, у каждой закреплённой заметки и напоминания своя карточка и свой цвет.</string>
+    <string name="setup_and_permissions">Настройка и разрешения</string>
+    <string name="setup_all_set">Всё, что нужно для напоминаний, настроено.</string>
+    <plurals name="setup_attention">
+        <item quantity="one">%d настройка требует внимания.</item>
+        <item quantity="few">%d настройки требуют внимания.</item>
+        <item quantity="many">%d настроек требуют внимания.</item>
+        <item quantity="other">%d настройки требуют внимания.</item>
+    </plurals>
+    <string name="section_vaults">Хранилища Obsidian</string>
+    <string name="no_vaults">Пока не подключено ни одно хранилище. Obsidian на этом телефоне подключается, когда впервые отправляет напоминания, а это приложение спрашивает, разрешить ли его.</string>
+    <plurals name="vault_summary">
+        <item quantity="one">%1$d напоминание · обновлено %2$s</item>
+        <item quantity="few">%1$d напоминания · обновлено %2$s</item>
+        <item quantity="many">%1$d напоминаний · обновлено %2$s</item>
+        <item quantity="other">%1$d напоминания · обновлено %2$s</item>
+    </plurals>
+    <string name="vault_nothing">Пока ничего не получено</string>
+    <string name="disconnect">Отключить</string>
+    <string name="disconnect_title">Отключить «%1$s»?</string>
+    <string name="disconnect_text">Его напоминания и закреплённые заметки исчезнут с этого телефона. Obsidian снова попросит подключиться, когда в следующий раз будет их отправлять.</string>
+    <string name="about">О приложении</string>
+    <string name="about_credit">Сделал %1$s с помощью 🤖</string>
+    <string name="kofi">"☕  Поддержать меня на Ko-fi"</string>
+    <string name="version">Версия %1$s</string>
+
+    <!-- Setup screen -->
+    <string name="welcome">Добро пожаловать</string>
+    <string name="setup_intro">Note Pin для Obsidian показывает напоминания и закреплённые заметки, которые вы задали в Obsidian, как уведомления на этом телефоне. Несколько настроек помогут им приходить вовремя.</string>
+    <string name="notifications_text">Нужны, чтобы показывать напоминания и закреплённые в строке состояния заметки.</string>
+    <string name="exact_alarms">Точные будильники</string>
+    <string name="exact_alarms_text">Напоминания срабатывают точно в заданную минуту, а не на несколько минут позже.</string>
+    <string name="battery">Батарея</string>
+    <string name="battery_ok">Расход батареи не ограничен, поэтому Android не будет задерживать напоминания.</string>
+    <string name="battery_restricted">Android может задерживать напоминания приложений, которые он ограничивает. %1$s</string>
+    <string name="battery_how_xiaomi">В разделе «О приложении» → «Расход батареи» выберите для экономии заряда вариант «Нет ограничений».</string>
+    <string name="battery_how_samsung">В разделе «Информация о приложении» → «Батарея» выберите «Не ограничено».</string>
+    <string name="battery_how_other">Выберите для расхода батареи этим приложением вариант «Без ограничений».</string>
+    <string name="battery_settings">Настройки батареи</string>
+    <string name="obsidian_installed">Установлен. Установите в Obsidian плагин Note Pin: он отправляет ваши напоминания сюда.</string>
+    <string name="obsidian_missing">Установите Obsidian и плагин Note Pin для него: они отправляют ваши напоминания сюда.</string>
+    <string name="undismissable">Закрепления, которые нельзя смахнуть</string>
+    <string name="undismissable_done">Готово: закреплённые в строке состояния заметки нельзя смахнуть.</string>
+    <string name="undismissable_how">В Android 14 и новее закреплённые в строке состояния заметки можно смахнуть. Чтобы это запретить, один раз выполните эту команду с компьютера с включённой отладкой по USB или на самом телефоне через Shizuku или LADB:</string>
+    <string name="copy_command">Скопировать команду</string>
+    <string name="adb_command_label">Команда ADB</string>
+    <string name="copied">Скопировано</string>
+    <string name="test_unknown">Проверьте: отправьте тестовое уведомление и попробуйте его смахнуть.</string>
+    <string name="test_locked">Тестовое уведомление показано, и Android отметил его как несмахиваемое.</string>
+    <string name="test_unlocked">Тестовое уведомление показано, и Android позволяет его смахнуть.</string>
+    <string name="post_test">Отправить тестовое уведомление</string>
+    <string name="setup_continue">Продолжить</string>
+    <string name="setup_done">Готово</string>
+
+    <!-- What the phone's maker adds on top of Android -->
+    <string name="this_phone">Этот телефон</string>
+    <string name="phone_nothing_to_do">Больше ничего настраивать не нужно: Android сам возвращает закреплённые в строке состояния заметки после перезагрузки телефона или обновления приложения.</string>
+    <string name="autostart">Автозапуск</string>
+    <string name="autostart_on">Автозапуск включён</string>
+    <string name="autostart_off">Автозапуск выключен</string>
+    <string name="autostart_on_text">Закреплённые в строке состояния заметки сами возвращаются после перезагрузки телефона или обновления этого приложения.</string>
+    <string name="autostart_off_text">Включите автозапуск для этого приложения. Без него закреплённые в строке состояния заметки не возвращаются сами после перезагрузки телефона или обновления приложения, а только когда вы его откроете. Напоминания при этом срабатывают.</string>
+    <string name="samsung_sleeping">Приложения в режиме сна</string>
+    <string name="samsung_sleeping_text">One UI переводит в спящий режим приложения, которые вы давно не открывали, и у такого приложения могут перестать работать напоминания и закрепления. В «Настройки» → «Батарея» → «Ограничения в фоновом режиме» добавьте Note Pin для Obsidian в «Не уходят в сон автоматически». Тогда закрепления также будут возвращаться после перезагрузки телефона, в том числе автоматической, которую может запланировать «Обслуживание устройства».</string>
+    <string name="samsung_icons">Значки в строке состояния</string>
+    <string name="samsung_icons_one_ui_7">One UI 7 и новее показывают в строке состояния не больше 3 значков уведомлений, а дальше точку, поэтому закреплённая заметка может отображаться только точкой. Проведите вниз, чтобы её увидеть.</string>
+    <string name="samsung_icons_older">Чтобы видеть в строке состояния значок каждой закреплённой заметки, откройте «Настройки» → «Уведомления» → «Дополнительные параметры» → «Показать значки уведомлений» и выберите «Все уведомления». One UI 7 и новее всегда показывают не больше 3.</string>
+    <string name="samsung_clear">Кнопка «Очистить»</string>
+    <string name="samsung_clear_text">В One UI 7 и новее кнопка «Очистить» убирает и постоянные уведомления, а с ними и закреплённые заметки, если вы не запретили их смахивать командой ниже. Если так случится, откройте это приложение, и они вернутся.</string>
+    <string name="huawei_app_launch">Запуск приложений</string>
+    <string name="huawei_app_launch_text">В «Настройки» → «Батарея» → «Запуск приложений» переключите Note Pin для Obsidian на ручное управление и включите «Автозапуск», «Косвенный запуск» и «Работа в фоновом режиме». Без них напоминания и закрепления могут перестать работать, если приложение долго закрыто, или после перезагрузки телефона.</string>
+    <string name="oppo_background">Автозапуск и работа в фоне</string>
+    <string name="oppo_background_text">В разделе «О приложении» → «Расход батареи» включите «Разрешить фоновую активность» и, если есть, «Разрешить автозапуск». Без них напоминания и закрепления могут перестать работать после перезагрузки телефона.</string>
+    <string name="vivo_background">Фоновое энергопотребление и автозапуск</string>
+    <string name="vivo_background_text">В «Настройки» → «Батарея» → «Управление фоновым энергопотреблением» разрешите Note Pin для Obsidian. Также включите для него автозапуск в разделе «О приложении», а на старых телефонах — в i Manager → «Диспетчер приложений» → «Автозапуск». Без этого напоминания и закрепления могут перестать работать после перезагрузки телефона.</string>
+</resources>

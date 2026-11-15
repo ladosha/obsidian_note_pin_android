@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note Pin Obsidian-ისთვის</string>
+
+    <!-- Shared -->
+    <string name="settings">პარამეტრები</string>
+    <string name="notifications">შეტყობინებები</string>
+    <string name="setup">დაყენება</string>
+    <string name="allow">დაშვება</string>
+    <string name="remove">მოცილება</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="app_info">აპის ინფორმაცია</string>
+    <string name="back">უკან</string>
+    <string name="no_app">ამ ტელეფონზე ამის გასახსნელი აპი არ არის.</string>
+
+    <!-- Main screen. Georgian nouns stay singular after a number, so both plural forms read the same. -->
+    <string name="section_pinned">მიმაგრებულია სტატუსის ზოლზე</string>
+    <string name="section_upcoming">მომავალი</string>
+    <string name="section_past">წარსული</string>
+    <string name="attention_title">დაასრულეთ დაყენება</string>
+    <plurals name="attention_text">
+        <item quantity="one">%d პარამეტრი საჭიროებს ყურადღებას, რომ შეხსენებები დროზე მოვიდეს.</item>
+        <item quantity="other">%d პარამეტრი საჭიროებს ყურადღებას, რომ შეხსენებები დროზე მოვიდეს.</item>
+    </plurals>
+    <string name="open_setup">დაყენების გახსნა</string>
+    <string name="empty_title">შეხსენებები ჯერ არ არის</string>
+    <string name="empty_text">Obsidian-ში გახსენით ჩანაწერი და Note Pin პლაგინში აირჩიეთ „შეხსენების დაყენება“, ან მიამაგრეთ ჩანაწერი სტატუსის ზოლზე. ამ ტელეფონზე Obsidian მათ აქ გამოგზავნის.</string>
+
+    <!-- When a note's reminder is due -->
+    <string name="schedule_pinned">მიმაგრებულია სტატუსის ზოლზე</string>
+    <string name="schedule_reminder">შეხსენება</string>
+    <string name="schedule_all_day">მთელი დღე · %1$s</string>
+    <string name="repeat_daily">ყოველდღე</string>
+    <string name="repeat_weekly_on">ყოველკვირა, %1$s</string>
+    <string name="repeat_biweekly_on">ორ კვირაში ერთხელ, %1$s</string>
+    <string name="repeat_yearly_on">ყოველწლიურად, %1$d %2$s</string>
+    <string name="repeat_yearly_feb29">ყოველწლიურად, 29 თებერვალს (სხვა წლებში 28 თებერვალს)</string>
+    <string-array name="weekdays_on">
+        <item>კვირას</item>
+        <item>ორშაბათს</item>
+        <item>სამშაბათს</item>
+        <item>ოთხშაბათს</item>
+        <item>ხუთშაბათს</item>
+        <item>პარასკევს</item>
+        <item>შაბათს</item>
+    </string-array>
+    <string-array name="months_on">
+        <item>იანვარს</item>
+        <item>თებერვალს</item>
+        <item>მარტს</item>
+        <item>აპრილს</item>
+        <item>მაისს</item>
+        <item>ივნისს</item>
+        <item>ივლისს</item>
+        <item>აგვისტოს</item>
+        <item>სექტემბერს</item>
+        <item>ოქტომბერს</item>
+        <item>ნოემბერს</item>
+        <item>დეკემბერს</item>
+    </string-array>
+    <string-array name="repeat_monthly_on">
+        <item>ყოველი თვის 1 რიცხვში</item>
+        <item>ყოველი თვის 2 რიცხვში</item>
+        <item>ყოველი თვის 3 რიცხვში</item>
+        <item>ყოველი თვის 4 რიცხვში</item>
+        <item>ყოველი თვის 5 რიცხვში</item>
+        <item>ყოველი თვის 6 რიცხვში</item>
+        <item>ყოველი თვის 7 რიცხვში</item>
+        <item>ყოველი თვის 8 რიცხვში</item>
+        <item>ყოველი თვის 9 რიცხვში</item>
+        <item>ყოველი თვის 10 რიცხვში</item>
+        <item>ყოველი თვის 11 რიცხვში</item>
+        <item>ყოველი თვის 12 რიცხვში</item>
+        <item>ყოველი თვის 13 რიცხვში</item>
+        <item>ყოველი თვის 14 რიცხვში</item>
+        <item>ყოველი თვის 15 რიცხვში</item>
+        <item>ყოველი თვის 16 რიცხვში</item>
+        <item>ყოველი თვის 17 რიცხვში</item>
+        <item>ყოველი თვის 18 რიცხვში</item>
+        <item>ყოველი თვის 19 რიცხვში</item>
+        <item>ყოველი თვის 20 რიცხვში</item>
+        <item>ყოველი თვის 21 რიცხვში</item>
+        <item>ყოველი თვის 22 რიცხვში</item>
+        <item>ყოველი თვის 23 რიცხვში</item>
+        <item>ყოველი თვის 24 რიცხვში</item>
+        <item>ყოველი თვის 25 რიცხვში</item>
+        <item>ყოველი თვის 26 რიცხვში</item>
+        <item>ყოველი თვის 27 რიცხვში</item>
+        <item>ყოველი თვის 28 რიცხვში</item>
+        <item>ყოველი თვის 29 რიცხვში (უფრო მოკლე თვეებში — ბოლო დღეს)</item>
+        <item>ყოველი თვის 30 რიცხვში (უფრო მოკლე თვეებში — ბოლო დღეს)</item>
+        <item>ყოველი თვის 31 რიცხვში (უფრო მოკლე თვეებში — ბოლო დღეს)</item>
+    </string-array>
+    <string name="repeat_yearly_lunar">ყოველწლიურად ჩინური მთვარის კალენდრით (%1$s)</string>
+    <string name="lunar_date">თვე %1$d, დღე %2$d</string>
+    <string name="lunar_leap_date">დამატებითი თვე %1$d, დღე %2$d</string>
+    <string name="repeat_until">ბოლო დღე: %1$s</string>
+    <string name="schedule_repeat_ended">გამეორება დასრულდა: %1$s</string>
+    <string-array name="repeat_monthly_weekday">
+        <item>ყოველი თვის პირველ კვირას</item>
+        <item>ყოველი თვის პირველ ორშაბათს</item>
+        <item>ყოველი თვის პირველ სამშაბათს</item>
+        <item>ყოველი თვის პირველ ოთხშაბათს</item>
+        <item>ყოველი თვის პირველ ხუთშაბათს</item>
+        <item>ყოველი თვის პირველ პარასკევს</item>
+        <item>ყოველი თვის პირველ შაბათს</item>
+        <item>ყოველი თვის მეორე კვირას</item>
+        <item>ყოველი თვის მეორე ორშაბათს</item>
+        <item>ყოველი თვის მეორე სამშაბათს</item>
+        <item>ყოველი თვის მეორე ოთხშაბათს</item>
+        <item>ყოველი თვის მეორე ხუთშაბათს</item>
+        <item>ყოველი თვის მეორე პარასკევს</item>
+        <item>ყოველი თვის მეორე შაბათს</item>
+        <item>ყოველი თვის მესამე კვირას</item>
+        <item>ყოველი თვის მესამე ორშაბათს</item>
+        <item>ყოველი თვის მესამე სამშაბათს</item>
+        <item>ყოველი თვის მესამე ოთხშაბათს</item>
+        <item>ყოველი თვის მესამე ხუთშაბათს</item>
+        <item>ყოველი თვის მესამე პარასკევს</item>
+        <item>ყოველი თვის მესამე შაბათს</item>
+        <item>ყოველი თვის მეოთხე კვირას</item>
+        <item>ყოველი თვის მეოთხე ორშაბათს</item>
+        <item>ყოველი თვის მეოთხე სამშაბათს</item>
+        <item>ყოველი თვის მეოთხე ოთხშაბათს</item>
+        <item>ყოველი თვის მეოთხე ხუთშაბათს</item>
+        <item>ყოველი თვის მეოთხე პარასკევს</item>
+        <item>ყოველი თვის მეოთხე შაბათს</item>
+        <item>ყოველი თვის ბოლო კვირას</item>
+        <item>ყოველი თვის ბოლო ორშაბათს</item>
+        <item>ყოველი თვის ბოლო სამშაბათს</item>
+        <item>ყოველი თვის ბოლო ოთხშაბათს</item>
+        <item>ყოველი თვის ბოლო ხუთშაბათს</item>
+        <item>ყოველი თვის ბოლო პარასკევს</item>
+        <item>ყოველი თვის ბოლო შაბათს</item>
+    </string-array>
+
+    <!-- Setup steps -->
+    <string name="status_done">შესრულებულია</string>
+    <string name="status_attention">საჭიროებს ყურადღებას</string>
+
+    <!-- Asking whether a vault may connect -->
+    <string name="pair_title">დავაკავშიროთ ეს საცავი?</string>
+    <string name="pair_text">Obsidian-ს სურს, ამ აპს „%1$s“ საცავის შეხსენებები და მიმაგრებული ჩანაწერები გაუგზავნოს.</string>
+    <string name="pair_deny">არ დაიშვას</string>
+
+    <!-- Notifications -->
+    <string name="channel_pins">მიმაგრებული ჩანაწერები</string>
+    <string name="channel_pins_description">Obsidian-იდან სტატუსის ზოლზე მიმაგრებული ჩანაწერები</string>
+    <string name="channel_reminders">შეხსენებები</string>
+    <string name="channel_reminders_description">Obsidian-ში ჩანაწერებზე დაყენებული შეხსენებები</string>
+    <string name="test_notification_title">სატესტო მუდმივი შეტყობინება</string>
+    <string name="test_notification_text">სცადეთ მისი გადასრიალებით მოშორება. თუ დარჩება, სტატუსის ზოლზე მიმაგრებული ჩანაწერებიც დარჩება.</string>
+    <string name="missed_reminder">გამოტოვებული შეხსენება</string>
+
+    <!-- Settings screen -->
+    <string name="separate_title">თითოეული ჩანაწერი ცალკე შეტყობინებად</string>
+    <string name="separate_text">როცა აპს რამდენიმე შეტყობინება აქვს, Android მათ ერთ ბარათში აერთიანებს. ჩართვისას თითოეულ მიმაგრებულ ჩანაწერს და შეხსენებას საკუთარი ბარათი და ფერი აქვს.</string>
+    <string name="setup_and_permissions">დაყენება და ნებართვები</string>
+    <string name="setup_all_set">შეხსენებებისთვის საჭირო ყველაფერი დაყენებულია.</string>
+    <plurals name="setup_attention">
+        <item quantity="one">%d პარამეტრი საჭიროებს ყურადღებას.</item>
+        <item quantity="other">%d პარამეტრი საჭიროებს ყურადღებას.</item>
+    </plurals>
+    <string name="section_vaults">Obsidian-ის საცავები</string>
+    <string name="no_vaults">ჯერ არცერთი საცავი არ დაკავშირებულა. ამ ტელეფონზე Obsidian პირველად მაშინ უკავშირდება, როცა შეხსენებებს აგზავნის, და ეს აპი გკითხავთ, დაუშვას თუ არა.</string>
+    <plurals name="vault_summary">
+        <item quantity="one">%1$d შეხსენება · განახლდა %2$s</item>
+        <item quantity="other">%1$d შეხსენება · განახლდა %2$s</item>
+    </plurals>
+    <string name="vault_nothing">ჯერ არაფერი მიღებულა</string>
+    <string name="disconnect">გათიშვა</string>
+    <string name="disconnect_title">გაითიშოს „%1$s“?</string>
+    <string name="disconnect_text">მისი შეხსენებები და მიმაგრებული ჩანაწერები ამ ტელეფონიდან გაქრება. როცა Obsidian მათ შემდეგ ჯერზე გამოგზავნის, ისევ ითხოვს დაკავშირებას.</string>
+    <string name="about">აპის შესახებ</string>
+    <string name="about_credit">შექმნილია 🤖-ის დახმარებით. ავტორი: %1$s</string>
+    <string name="kofi">"☕  დამიჭირეთ მხარი Ko-fi-ზე"</string>
+    <string name="version">ვერსია %1$s</string>
+
+    <!-- Setup screen -->
+    <string name="welcome">მოგესალმებით</string>
+    <string name="setup_intro">Note Pin Obsidian-ისთვის Obsidian-ში დაყენებულ შეხსენებებსა და მიმაგრებულ ჩანაწერებს ამ ტელეფონზე შეტყობინებებად აჩვენებს. რამდენიმე პარამეტრი უზრუნველყოფს, რომ ისინი დროზე მოვიდეს.</string>
+    <string name="notifications_text">საჭიროა შეხსენებებისა და სტატუსის ზოლზე მიმაგრებული ჩანაწერების საჩვენებლად.</string>
+    <string name="exact_alarms">ზუსტი მაღვიძარები</string>
+    <string name="exact_alarms_text">შეხსენებები ზუსტად დანიშნულ წუთზე ამოქმედდება და არა რამდენიმე წუთის დაგვიანებით.</string>
+    <string name="battery">ბატარეა</string>
+    <string name="battery_ok">ბატარეის გამოყენება შეუზღუდავია, ამიტომ Android შეხსენებებს არ დააყოვნებს.</string>
+    <string name="battery_restricted">Android-მა შეიძლება დააყოვნოს იმ აპების შეხსენებები, რომლებსაც ზღუდავს. %1$s</string>
+    <string name="battery_how_xiaomi">„აპის ინფორმაცია“ → „ბატარეის გამოყენება“-ში ბატარეის დაზოგვისთვის აირჩიეთ „შეზღუდვების გარეშე“.</string>
+    <string name="battery_how_samsung">„აპლიკაციის ინფორმაცია“ → „კვების ელემენტი“-ში აირჩიეთ „შეუზღუდავი“.</string>
+    <string name="battery_how_other">აპის ბატარეის გამოყენებისთვის აირჩიეთ „შეუზღუდავი“.</string>
+    <string name="battery_settings">ბატარეის პარამეტრები</string>
+    <string name="obsidian_installed">დაინსტალირებულია. Obsidian-ში დააინსტალირეთ Note Pin პლაგინი: ის თქვენს შეხსენებებს აქ აგზავნის.</string>
+    <string name="obsidian_missing">დააინსტალირეთ Obsidian და მისი Note Pin პლაგინი; ისინი თქვენს შეხსენებებს აქ აგზავნიან.</string>
+    <string name="undismissable">მიმაგრებები, რომლებიც გადასრიალებით არ შორდება</string>
+    <string name="undismissable_done">მზადაა: სტატუსის ზოლზე მიმაგრებული ჩანაწერები გადასრიალებით ვეღარ მოშორდება.</string>
+    <string name="undismissable_how">Android 14-სა და უფრო ახალ ვერსიებში სტატუსის ზოლზე მიმაგრებული ჩანაწერების გადასრიალებით მოშორება შეიძლება. ამის ასაკრძალად ერთხელ გაუშვით ეს ბრძანება კომპიუტერიდან, ჩართული USB-გამართვით, ან თავად ტელეფონზე Shizuku-თი ან LADB-ით:</string>
+    <string name="copy_command">ბრძანების კოპირება</string>
+    <string name="adb_command_label">ADB ბრძანება</string>
+    <string name="copied">დაკოპირდა</string>
+    <string name="test_unknown">შეამოწმეთ: აჩვენეთ სატესტო შეტყობინება და სცადეთ მისი გადასრიალებით მოშორება.</string>
+    <string name="test_locked">სატესტო შეტყობინება ჩანს და Android-მა ის მონიშნა, როგორც გადასრიალებით მოუშორებელი.</string>
+    <string name="test_unlocked">სატესტო შეტყობინება ჩანს და Android მისი გადასრიალებით მოშორების საშუალებას იძლევა.</string>
+    <string name="post_test">სატესტო შეტყობინების ჩვენება</string>
+    <string name="setup_continue">გაგრძელება</string>
+    <string name="setup_done">მზადაა</string>
+
+    <!-- What the phone's maker adds on top of Android -->
+    <string name="this_phone">ეს ტელეფონი</string>
+    <string name="phone_nothing_to_do">მეტი არაფრის დაყენება არ არის საჭირო: ტელეფონის გადატვირთვის ან აპის განახლების შემდეგ Android სტატუსის ზოლზე მიმაგრებულ ჩანაწერებს თავად აბრუნებს.</string>
+    <string name="autostart">ავტოგაშვება</string>
+    <string name="autostart_on">ავტოგაშვება ჩართულია</string>
+    <string name="autostart_off">ავტოგაშვება გამორთულია</string>
+    <string name="autostart_on_text">ტელეფონის გადატვირთვის ან ამ აპის განახლების შემდეგ სტატუსის ზოლზე მიმაგრებული ჩანაწერები თავისით ბრუნდება.</string>
+    <string name="autostart_off_text">ჩართეთ ამ აპისთვის ავტოგაშვება. მის გარეშე ტელეფონის გადატვირთვის ან აპის განახლების შემდეგ სტატუსის ზოლზე მიმაგრებული ჩანაწერები თავისით არ ბრუნდება, მხოლოდ მაშინ, როცა აპს გახსნით. შეხსენებები მაინც ამოქმედდება.</string>
+    <string name="samsung_sleeping">მძინარე აპლიკაციები</string>
+    <string name="samsung_sleeping_text">One UI დიდი ხნის განმავლობაში გაუხსნელ აპებს ძილის რეჟიმში გადაიყვანს, და მძინარე აპის შეხსენებები და მიმაგრებები შეიძლება შეჩერდეს. „პარამეტრები“ → „კვების ელემენტი“ → „ფონური გამოყენების შეზღუდვები“-ში დაამატეთ Note Pin Obsidian-ისთვის „მუდამ მღვიძარე აპლიკაციები“-ში. მაშინ მიმაგრებები ტელეფონის გადატვირთვის შემდეგაც დაბრუნდება, მათ შორის იმ ავტომატური გადატვირთვების შემდეგ, რომლებსაც „მოწყობილობის მოვლა“ გეგმავს.</string>
+    <string name="samsung_icons">სტატუსის ზოლის ხატულები</string>
+    <string name="samsung_icons_one_ui_7">One UI 7 და უფრო ახალი ვერსიები სტატუსის ზოლში შეტყობინებების მაქსიმუმ 3 ხატულას აჩვენებს, შემდეგ კი წერტილს, ამიტომ მიმაგრებული ჩანაწერი შეიძლება მხოლოდ წერტილად ჩანდეს. სანახავად ჩამოასრიალეთ.</string>
+    <string name="samsung_icons_older">ყველა მიმაგრებული ჩანაწერის ხატულა სტატუსის ზოლში რომ დაინახოთ, გადადით „პარამეტრები“ → „შეტყობინებები“ → „დამატებითი პარამეტრები“ → „შეტყობინებების ხატულების ჩვენება“ და აირჩიეთ „ყველა შეტყობინება“. One UI 7 და უფრო ახალი ვერსიები ყოველთვის მაქსიმუმ 3-ს აჩვენებს.</string>
+    <string name="samsung_clear">ღილაკი „გათავისუ.“</string>
+    <string name="samsung_clear_text">One UI 7-სა და უფრო ახალ ვერსიებში ღილაკი „გათავისუ.“ მიმდინარე შეტყობინებებსაც შლის, მათ შორის მიმაგრებულ ჩანაწერებს, თუ ქვემოთ მოცემული ბრძანებით მათი გადასრიალებით მოშორება არ აკრძალეთ. თუ ასე მოხდა, ამ აპის გახსნა მათ დააბრუნებს.</string>
+    <string name="huawei_app_launch">აპის გაშვება</string>
+    <string name="huawei_app_launch_text">„პარამეტრები“ → „ბატარეა“ → „აპის გაშვება“-ში Note Pin Obsidian-ისთვის გადაიყვანეთ ხელით მართვაზე და ჩართეთ „ავტოგაშვება“, „მეორადი გაშვება“ და „ფონურ რეჟიმში მუშაობა“. მათ გარეშე შეხსენებები და მიმაგრებები შეიძლება შეჩერდეს, თუ აპი დიდხანს დახურულია, ან ტელეფონის გადატვირთვის შემდეგ.</string>
+    <string name="oppo_background">ავტოგაშვება და ფონური აქტივობა</string>
+    <string name="oppo_background_text">„აპის ინფორმაცია“ → „ბატარეის გამოყენება“-ში ჩართეთ „ფონური აქტივობის დაშვება“ და, თუ არის, „ავტოგაშვების დაშვება“. მათ გარეშე ტელეფონის გადატვირთვის შემდეგ შეხსენებები და მიმაგრებები შეიძლება შეჩერდეს.</string>
+    <string name="vivo_background">ფონური ენერგომოხმარება და ავტოგაშვება</string>
+    <string name="vivo_background_text">„პარამეტრები“ → „ბატარეა“ → „ფონური ენერგომოხმარების მართვა“-ში დაუშვით Note Pin Obsidian-ისთვის. ასევე ჩართეთ მისთვის ავტოგაშვება „აპის ინფორმაციაში“, ძველ ტელეფონებზე კი i Manager → „აპების მენეჯერი“ → „ავტოგაშვება“-ში. მათ გარეშე ტელეფონის გადატვირთვის შემდეგ შეხსენებები და მიმაგრებები შეიძლება შეჩერდეს.</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- No INTERNET permission: the app works offline by construction. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Package visibility (Android 11+): checking that Obsidian is installed, and finding Xiaomi's Autostart screen. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="obsidian" />
+        </intent>
+        <!-- Phone makers' startup settings, which Setup links to. -->
+        <package android:name="com.miui.securitycenter" />
+        <package android:name="com.huawei.systemmanager" />
+        <package android:name="com.hihonor.systemmanager" />
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.NotePin">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            Receives vladmas-note-pin://sync links from the Obsidian plugin, shows nothing and finishes at
+            once. The empty task affinity keeps it out of the app's own task, so finishing returns to Obsidian
+            even when the main screen is open in the background.
+        -->
+        <activity
+            android:name=".SyncActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="vladmas-note-pin" />
+            </intent-filter>
+        </activity>
+
+        <!-- Asks whether a vault that hasn't connected before may send its reminders. -->
+        <activity
+            android:name=".PairActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity=""
+            android:theme="@style/Theme.NotePin.Dialog" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:exported="false" />
+
+        <!-- Only the system can send these broadcasts. -->
+        <receiver
+            android:name=".SystemEventsReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".RemoveTestNotificationReceiver"
+            android:exported="false" />
+
+        <!-- The Remove button on all-day reminders, and the midnight alarm that removes them. -->
+        <receiver
+            android:name=".AllDayReceiver"
+            android:exported="false" />
+    </application>
+</manifest>

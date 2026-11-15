@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <rect width="108" height="108" fill="#7C5CEB"/>
+  <g transform="rotate(-6 54 58)">
+    <!-- the note's shadow on the board -->
+    <path d="M38.5,39.5h32a3,3 0 0 1 3,3v28l-11,11h-24a3,3 0 0 1 -3,-3v-36a3,3 0 0 1 3,-3z" fill="#5A3CC9" fill-opacity="0.6"/>
+    <!-- the note, with its bottom-right corner folded -->
+    <path d="M37,37h32a3,3 0 0 1 3,3v28l-11,11h-24a3,3 0 0 1 -3,-3v-36a3,3 0 0 1 3,-3z" fill="#FFFFFF"/>
+    <path d="M72,68l-11,11v-8a3,3 0 0 1 3,-3z" fill="#D8CCFF"/>
+    <!-- lines of text -->
+    <rect x="41" y="49" width="26" height="3" rx="1.5" fill="#CDBFFA"/>
+    <rect x="41" y="56" width="26" height="3" rx="1.5" fill="#CDBFFA"/>
+    <rect x="41" y="63" width="15" height="3" rx="1.5" fill="#CDBFFA"/>
+    <!-- the pin -->
+    <ellipse cx="55.6" cy="40.6" rx="5.2" ry="2.6" fill="#2A1A6E" fill-opacity="0.25"/>
+    <circle cx="54" cy="37.5" r="5.5" fill="#E5484D"/>
+    <circle cx="52.2" cy="35.7" r="1.8" fill="#FFFFFF" fill-opacity="0.5"/>
+  </g>
+</svg>
