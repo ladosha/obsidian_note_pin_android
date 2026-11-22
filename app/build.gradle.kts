@@ -12,12 +12,15 @@ android {
         applicationId = "com.vladmas.notepinobsidian"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.0.1"
     }
 
     buildTypes {
         release {
+            // Leaves the git commit out of the APK, so a build from the release tag matches the published APK
+            // byte for byte, which F-Droid checks before it publishes the developer-signed APK.
+            vcsInfo.include = false
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")

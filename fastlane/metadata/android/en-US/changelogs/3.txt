@@ -1,0 +1,1 @@
+The app is now built so anyone can check that it matches its source code. Nothing else changed.
