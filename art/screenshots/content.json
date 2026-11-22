@@ -1,0 +1,87 @@
+{
+  "_about": "Store screenshot content per language: the demo notes capture.py loads into the app, the app's button labels it taps, and the captions frame.py puts above each screen. Dates are set by capture.py relative to the day the screenshots are taken.",
+
+  "en-US": {
+    "vault": "My vault",
+    "labels": {
+      "continue": "Continue",
+      "allow": "Allow",
+      "post_test": "Post test notification",
+      "remove": "Remove",
+      "undismissable": "Pins that can't be swiped away"
+    },
+    "notes": {
+      "groceries":  { "title": "Groceries", "preview": "Milk, eggs, coffee beans, basil" },
+      "packing":    { "title": "Packing list: Lisbon", "preview": "Passport · Charger · Sunglasses · Sandals · A good book · Travel adapter" },
+      "focus":      { "title": "Today's focus", "preview": "Finish the quarterly report draft" },
+      "plants":     { "title": "Water the plants", "preview": "Ferns every day, cactus on Sundays." },
+      "dentist":    { "title": "Call the dentist", "subtitle": "Ask about the Thursday slot", "preview": "Ask about the Thursday slot. Bring the insurance card." },
+      "review":     { "title": "Weekly review", "preview": "What went well, what didn't, and the three priorities for next week." },
+      "birthday":   { "title": "Anna's birthday", "preview": "Book the table at Casa Lina" },
+      "standup":    { "title": "Stand-up", "subtitle": "Share the report draft", "preview": "Yesterday: report outline. Today: draft. Blockers: none." }
+    },
+    "captions": [
+      { "kicker": "notification bar", "title": "Your notes in the notification bar", "text": "Pinned in their colors, one swipe away. Tap one to open the note." },
+      { "kicker": "reminders", "title": "Everything pinned or coming up", "text": "Reminders go off at the exact minute, even when Obsidian is closed." },
+      { "kicker": "setup", "title": "Setup that knows your phone", "text": "Checks permissions and battery, plus the extra settings on Xiaomi, Samsung and other phones." },
+      { "kicker": "android 14+", "title": "Pins that can't be swiped away", "text": "On Android 14 and later, after one ADB command." },
+      { "kicker": "privacy", "title": "Offline, and only your vault", "text": "No internet permission. Only vaults you allow can send reminders." }
+    ]
+  },
+
+  "ru-RU": {
+    "vault": "Моё хранилище",
+    "labels": {
+      "continue": "Продолжить",
+      "allow": "Разрешить",
+      "post_test": "Отправить тестовое уведомление",
+      "remove": "Убрать",
+      "undismissable": "Закрепления, которые нельзя смахнуть"
+    },
+    "notes": {
+      "groceries":  { "title": "Продукты", "preview": "Молоко, яйца, кофе в зёрнах, базилик" },
+      "packing":    { "title": "Вещи в дорогу: Лиссабон", "preview": "Паспорт · Зарядка · Солнечные очки · Сандалии · Хорошая книга · Переходник для розетки" },
+      "focus":      { "title": "Главное сегодня", "preview": "Дописать черновик квартального отчёта" },
+      "plants":     { "title": "Полить цветы", "preview": "Папоротники каждый день, кактус по воскресеньям." },
+      "dentist":    { "title": "Позвонить стоматологу", "subtitle": "Спросить про время в четверг", "preview": "Спросить про время в четверг. Взять страховой полис." },
+      "review":     { "title": "Итоги недели", "preview": "Что получилось, что нет, и три главных дела на следующую неделю." },
+      "birthday":   { "title": "День рождения Анны", "preview": "Забронировать столик в Casa Lina" },
+      "standup":    { "title": "Планёрка", "subtitle": "Показать черновик отчёта", "preview": "Вчера: план отчёта. Сегодня: черновик. Блокеров нет." }
+    },
+    "captions": [
+      { "kicker": "шторка уведомлений", "title": "Ваши заметки в шторке уведомлений", "text": "Закреплены в своих цветах, в одном свайпе от вас. Нажмите, чтобы открыть заметку." },
+      { "kicker": "напоминания", "title": "Всё закреплённое и предстоящее", "text": "Напоминания приходят в ту самую минуту, даже если Obsidian закрыт." },
+      { "kicker": "настройка", "title": "Настройка, которая знает ваш телефон", "text": "Проверяет разрешения и батарею, а также особые настройки Xiaomi, Samsung и других телефонов." },
+      { "kicker": "android 14+", "title": "Закрепления, которые нельзя смахнуть", "text": "На Android 14 и новее, после одной команды ADB." },
+      { "kicker": "приватность", "title": "Без интернета, только ваше хранилище", "text": "У приложения нет доступа в интернет. Напоминания присылают только хранилища, которые вы разрешили." }
+    ]
+  },
+
+  "ka-GE": {
+    "vault": "ჩემი საცავი",
+    "labels": {
+      "continue": "გაგრძელება",
+      "allow": "დაშვება",
+      "post_test": "სატესტო შეტყობინების ჩვენება",
+      "remove": "მოცილება",
+      "undismissable": "მიმაგრებები, რომლებიც გადასრიალებით არ შორდება"
+    },
+    "notes": {
+      "groceries":  { "title": "საყიდლები", "preview": "რძე, კვერცხი, ყავის მარცვლები, რეჰანი" },
+      "packing":    { "title": "ბარგი: ლისაბონი", "preview": "პასპორტი · დამტენი · მზის სათვალე · სანდლები · კარგი წიგნი · ადაპტერი" },
+      "focus":      { "title": "დღის მთავარი საქმე", "preview": "კვარტალური ანგარიშის შავი ვარიანტის დასრულება" },
+      "plants":     { "title": "მცენარეების მორწყვა", "preview": "გვიმრები ყოველდღე, კაქტუსი კვირაობით." },
+      "dentist":    { "title": "სტომატოლოგთან დარეკვა", "subtitle": "ხუთშაბათის დროზე ვიკითხო", "preview": "ხუთშაბათის დროზე ვიკითხო. სადაზღვევო ბარათი წავიღო." },
+      "review":     { "title": "კვირის შეჯამება", "preview": "რა გამოვიდა, რა არა და სამი მთავარი საქმე მომავალი კვირისთვის." },
+      "birthday":   { "title": "ანას დაბადების დღე", "preview": "მაგიდის დაჯავშნა Casa Lina-ში" },
+      "standup":    { "title": "დილის შეხვედრა", "subtitle": "ანგარიშის შავი ვარიანტის გაზიარება", "preview": "გუშინ: ანგარიშის გეგმა. დღეს: შავი ვარიანტი. დაბრკოლებები: არა." }
+    },
+    "captions": [
+      { "kicker": "შეტყობინებების პანელი", "title": "თქვენი ჩანაწერები შეტყობინებების პანელში", "text": "მიმაგრებულია თავის ფერებში, ერთ გადასრიალებაზე. შეეხეთ და ჩანაწერი გაიხსნება." },
+      { "kicker": "შეხსენებები", "title": "ყველაფერი მიმაგრებული და მომავალი", "text": "შეხსენებები ზუსტად დანიშნულ წუთზე მოდის, მაშინაც კი, როცა Obsidian დახურულია." },
+      { "kicker": "დაყენება", "title": "დაყენება, რომელიც თქვენს ტელეფონს იცნობს", "text": "ამოწმებს ნებართვებს და ბატარეას, ასევე Xiaomi-ს, Samsung-ის და სხვა ტელეფონების დამატებით პარამეტრებს." },
+      { "kicker": "android 14+", "title": "მიმაგრებები, რომლებიც გადასრიალებით არ შორდება", "text": "Android 14-ზე და უფრო ახალ ვერსიებზე, ერთი ADB ბრძანების შემდეგ." },
+      { "kicker": "კონფიდენციალურობა", "title": "ოფლაინ და მხოლოდ თქვენი საცავი", "text": "აპს ინტერნეტზე წვდომა არ აქვს. შეხსენებებს მხოლოდ თქვენ მიერ დაშვებული საცავები აგზავნის." }
+    ]
+  }
+}

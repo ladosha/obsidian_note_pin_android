@@ -9,11 +9,11 @@ It's an unofficial app, not made by the Obsidian team.
 <a href="https://play.google.com/store/apps/details?id=com.vladmas.notepinobsidian"><img src="art/google-play-badge.png" alt="Get it on Google Play" height="80"></a>
 <a href="https://f-droid.org/packages/com.vladmas.notepinobsidian/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80"></a>
 
-Or download the APK from [GitHub Releases](https://github.com/TODO-owner/TODO-app-repo/releases/latest).
+Or download the APK from [GitHub Releases](https://github.com/ladosha/obsidian_note_pin_android/releases/latest).
 
-| Pinned notes and a reminder | The app | Connecting a vault |
+| Pinned notes and a reminder | The app | Setup |
 |---|---|---|
-| ![Android's notification shade with a reminder and three pinned notes in their colors](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![The app listing pinned notes and upcoming reminders](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) | ![The dialog asking whether to connect the vault "My vault"](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) |
+| ![Your notes in the notification bar: Android's notification shade with a reminder and three pinned notes in their colors](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![Everything pinned or coming up: the app listing pinned notes and upcoming reminders](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) | ![Setup that knows your phone: every check green, and the phone's own settings](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) |
 
 ## Highlights
 
@@ -50,7 +50,7 @@ You can set reminders and pins in Obsidian on any device. Your vault's sync brin
 1. **Get the app** from one of these. It needs Android 8 or later.
    - [Google Play](https://play.google.com/store/apps/details?id=com.vladmas.notepinobsidian), which keeps it up to date.
    - [F-Droid](https://f-droid.org/packages/com.vladmas.notepinobsidian/), which keeps it up to date too.
-   - [GitHub Releases](https://github.com/TODO-owner/TODO-app-repo/releases/latest): download the `.apk` file under **Assets** and open it on the phone. The app can't check for new versions itself, since it has no internet access. Download each new release yourself, or let an app such as Obtainium watch for them.
+   - [GitHub Releases](https://github.com/ladosha/obsidian_note_pin_android/releases/latest): download the `.apk` file under **Assets** and open it on the phone. The app can't check for new versions itself, since it has no internet access. Download each new release yourself, or let an app such as Obtainium watch for them.
 2. **Open it and go through Setup.** Make sure battery use is unrestricted (below).
 3. **Install the [Note Pin plugin](https://community.obsidian.md/plugins/vladmas-note-pin)** in your vault, and open Obsidian on the phone. The first time the plugin sends your reminders, the app asks whether to allow the vault.
 
@@ -120,6 +120,12 @@ The store texts and images are in [`fastlane/metadata/android/en-US`](fastlane/m
 - the phone screenshots.
 
 Russian and Georgian texts are in `ru-RU` and `ka-GE`. The icon's source drawings are in [`art/`](art).
+
+The phone screenshots are 1080×1920 (9:16, which Google Play needs), five per language, framed on artwork in the style of vladmas.com. They're made in [`art/screenshots/`](art/screenshots):
+
+1. `content.json` has the demo notes, in each language, and the captions.
+2. `capture.py <locale>` runs the app on an emulator in that language, loads the demo notes through the app's sync link, and saves the five screens to `raw/<locale>/`. Use the `Medium_Phone_API_35` emulator, with the debug build and Obsidian installed (it needs Android 14 or later for the swipe-proof screen). The script clears Note Pin's data, and leaves the emulator in dark mode with gesture navigation, the device name "Pixel 9", and Note Pin's battery use unrestricted. To change the emulator's language, add the languages once in Settings → System → Languages, then run `set_language.py "<language as Settings shows it>"`. The emulator's `-change-locale` flag doesn't work on Google Play system images.
+3. `frame.py` puts the screens on `background.jpg`, a panorama made with Codex that runs on from one screenshot to the next, and writes them to `fastlane/metadata/android/<locale>/images/phoneScreenshots/`. Run it with `uv run --with playwright --with pillow python frame.py`; it uses the installed Chrome.
 
 ## About
 
